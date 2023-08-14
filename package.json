@@ -1,0 +1,19 @@
+{
+  "name": "Random Generators",
+  "version": "1.0.0",
+  "description": "The Random Value Generators by xc7b",
+  "main": "index.js",
+  "repository": "https://github.com/0xc0000007b/random-generator.git",
+  "author": "xc7b",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "typescript": "^5.1.6"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.0",
+    "@types/nodemon": "^1.19.2",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1"
+  }
+}
