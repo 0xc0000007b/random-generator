@@ -1,12 +1,12 @@
 # Random Value Generators
 
 ## It's the deadly simplest generators. which will writes on typescript.
+> **Note**
+>
+> This library having the decorators,  please use this.
 
 # Usage
 
-> **Important**
-> 
-> This library having the decorators,  please use this.
 
 ```` TypesScript
     Generator.generateRandomNumber(100, 200);
