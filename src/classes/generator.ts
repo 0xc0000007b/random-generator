@@ -37,5 +37,16 @@ export class Generator {
         }
         return  output
     }
+
+    public static generateSlug(text: string, separator: string ) {
+        return  String(text)
+            .normalize('NFKD')
+            .replace(/[\u0300-\u036f]/g, '')
+            .trim()
+            .toLowerCase()
+            .replace(/[^a-z0-9 -]/g, '')
+            .replace(/\s+/g, separator)
+            .replace(/-+/g, separator);
+    }
 }
 

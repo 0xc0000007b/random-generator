@@ -1,4 +1,5 @@
 {
+  "include": ["src/**/*"],
   "compilerOptions": {
     "target": "ESNext",
     "module": "CommonJS",
@@ -7,12 +8,17 @@
     "noImplicitAny": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "outDir": "./dist",
+    "emitDeclarationOnly": true,
+    "declarationMap": true,
+    "declaration": true,
+    "allowJs": true,
+    "outDir": "dist",
     "paths": {
       "@classes": ["./src/classes"],
       "@types": ["./src/types"],
-      "@decorators": ["./src/decorators"]
-    },
+      "@decorators": ["./src/decorators"],
+      "@generators/*": ["./src/*"]
+    }
 
   }
 }
